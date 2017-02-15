@@ -1,5 +1,3 @@
-
-
 $(document).ready(function () {
     $("img").hide();
     $("h2").after("<p>Please click on an item to see its image.</p>");
