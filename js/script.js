@@ -1,10 +1,10 @@
 $( document ).ready(function(){
 
   $(".menu-item").click(function(){
-    var src = $(this).siblings("img").attr("src");
-    var tag = "<img src=\"" + src + "\">";
-    var pic = $("#picture");
-    var img = $("#picture img");
+    let src = $(this).siblings("img").attr("src");
+    let tag = "<img src=\"" + src + "\">";
+    let pic = $("#picture");
+    let img = $("#picture img");
 
     if(pic.children().length > 0) {
       if(img.attr("src") == src) {
