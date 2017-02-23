@@ -58,3 +58,8 @@ ul {
 li {
 	padding-bottom: .25em;
 }
+
+#java {
+    font-size: 120%;
+    font-family: Papyrus, fantasy, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
